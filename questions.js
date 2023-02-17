@@ -5,38 +5,38 @@ const MainPageQuestions = [
         message: 'What Would You Like To Do?',
         choices: [
             {
-                value: 'view-departments',
-                name: 'View all departments'
+                value: 'see_departments',
+                name: 'see all departments'
             },
 
             {
-                value: 'view-roles',
-                name: 'view all roles'
+                value: 'see_roles',
+                name: 'see all roles'
             },
 
             {
-                value: 'view-employees',
-                name: 'View all empoyees'
+                value: 'see_employees',
+                name: 'see all employees'
             },
 
             {
-                name: 'add-department',
-                value: 'Add a department'
+                value: 'add_department',
+                name: 'Add a department'
             },
 
             {
-                name: 'add-role',
-                value: 'add a role'
+                value: 'add_role',
+                name: 'add a role'
             },
 
             {
-                name: 'add-employee',
-                value: 'add an employee'
+                value: 'add_employee',
+                name: 'add an employee'
             },
 
             {
-                name: 'update-role',
-                value: 'update a role'
+                value: 'update_role',
+                name: 'update a role'
             }
 
     ]
@@ -80,7 +80,7 @@ const AddEmployeeQuestion = [
     {
         type: 'input',
         name: 'last_name',
-        message: 'Please enter the emloyee first name.'
+        message: 'Please enter the emloyee last name.'
     },
     {
         type: 'list',
