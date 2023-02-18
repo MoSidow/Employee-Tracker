@@ -107,7 +107,7 @@ const add_employee = () => {
         const roleQuestions = AddEmployeeQuestion[2];
         results.forEach((role) => {
 
-            const role_list = `${role.title} (${role.department_name}: ${role.salary})`;
+            const role_list = `${role.title} (${role.department_id}: ${role.salary})`;
             roleQuestions.choices.push({
                 value: role.id,
                 name: role_list
@@ -121,7 +121,6 @@ const add_employee = () => {
         results.forEach((employee) => {
             managerQuestions.choices.push({
                 value: employee.id,
-                name: employee.name
             })
         });
 
@@ -146,7 +145,6 @@ const update_role = () => {
 
             employeeQuestions.choices.push({
                 value: employee.id,
-                name: employee.name
             })
         })
 
