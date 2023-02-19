@@ -8,7 +8,7 @@ const db = new EmployeeDatabase (
     {
         host: 'localhost',
         user: 'root',
-        password: 'Moha24680',
+        password: 'password123',
         database: 'employee_db'
 }
 
