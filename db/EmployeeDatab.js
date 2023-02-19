@@ -87,7 +87,7 @@ addEmployee(employee) {
 updateEmployee(employee) {
 
     return new Promise((resolve, reject) => {
-        this.db.query(`UPDATE employee SET role.id? WHERE id=?`, [employee.role_id, employee.employee_id], (err, results) => {
+        this.db.query(`UPDATE employee SET role_id=? WHERE id=?`, [employee.role_id, employee.employee_id], (err, results) => {
             if (err) {
                 reject(err)
             }
